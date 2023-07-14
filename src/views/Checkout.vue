@@ -52,7 +52,7 @@ export default {
           return; // No items selected for order
         }
 
-        const response = await axios.post('https://your-api-endpoint/orders', {
+        const response = await axios.post('http://localhost:3000/orders', {
           userId: 1, // Replace with the actual user ID
           orderItems
         });
