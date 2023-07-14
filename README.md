@@ -1,6 +1,15 @@
 # Login
 user: jei
 Password: jeihebat
+
+#setup
+in the terminal, do the following: 
+npx sequelize-cli db:create
+npx sequelize-cli db:migrate
+npx sequelize-cli db:seed:all
+
+and you are good to go
+
 # fe
 
 This template should help get you started developing with Vue 3 in Vite.
