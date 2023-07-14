@@ -4,9 +4,15 @@ Password: jeihebat
 
 #setup
 in the terminal, do the following: 
+```sh
 npx sequelize-cli db:create
+```
+```sh
 npx sequelize-cli db:migrate
+```
+```sh
 npx sequelize-cli db:seed:all
+```
 
 and you are good to go
 
