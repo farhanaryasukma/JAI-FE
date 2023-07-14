@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to My App</h1>
+    <h1>JAI test</h1>
     <router-link v-if="isAuthenticated" to="/main">Go to Main Page</router-link>
     <button v-if="isAuthenticated" @click="logout">Logout</button>
     <router-view></router-view>

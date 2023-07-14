@@ -10,6 +10,7 @@
     <button @click="submitOrder">Submit Order</button>
     <p v-if="orderSuccess" class="success-message">Order submitted successfully!</p>
     <p v-if="orderError" class="error-message">Error submitting order. Please try again later.</p>
+    <router-link to="/ordersummary">Go to Order Summary</router-link>
   </div>
 </template>
 
